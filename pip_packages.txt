@@ -1,0 +1,5 @@
+PIP3 PACKAGES NEEDED TO BE INSTALLED BEFORE RUNNING THIS SCRIPT:
+
+requests
+playsound
+pyinstaller
