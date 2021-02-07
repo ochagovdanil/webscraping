@@ -24,9 +24,6 @@ data = {
 session = requests.Session()
 response = session.put("https://ticket.bolshoi.ru/api/v1/client/login", headers=headers, data=data, verify=False)
 
-if response.status_code != 200:
-    exit()
-
 
 # Collecting user data
 number_of_urls = int(input("Введите количество ссылок (число), по которым будет происходить мониторинг: "))
