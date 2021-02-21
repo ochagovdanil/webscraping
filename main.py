@@ -73,5 +73,3 @@ for i in json_url_array:
     t = threading.Thread(target=work, args=(i,))
     t.start()
     time.sleep(1)
-
-print("Приложение работает...(просьба не закрывать окно)")
